@@ -1,0 +1,10 @@
+[project]
+name = "catpy"
+version = "0.70.1"
+description = "A Python version of the classic Unix command 'cat'."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+catpy = "catpy:main"
